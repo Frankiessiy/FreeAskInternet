@@ -83,6 +83,10 @@ ollama model Reference : [https://ollama.com/library](https://ollama.com/library
 ### How to update to latest
 
 ```bash
+cd /root
+ls
+tmux ls | grep free_ask_internet
+tmux new -s free_ask_internet
 cd ./FreeAskInternet
 git pull
 docker compose down
